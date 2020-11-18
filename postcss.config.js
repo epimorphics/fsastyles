@@ -3,6 +3,7 @@ module.exports = {
     'postcss-import': {},
     'postcss-custom-media': {},
     'postcss-custom-selectors': {},
+    'postcss-custom-properties': {},
     'postcss-mixins': {},
     'postcss-nested': {},
     'postcss-preset-env': {
