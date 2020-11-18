@@ -2,7 +2,6 @@ const path = require('path')
 
 // Plugins
 const SvgStorePlugin = require('external-svg-sprite-loader')
-const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 const config = {
@@ -85,10 +84,6 @@ module.exports = (env, argv) => {
     // Extract CSS to its own file
     new MiniCssExtractPlugin({
       filename: '[name].css'
-    }),
-
-    new OptimizeCssAssetsPlugin({
-      cssProcessorOptions: { discardComments: { removeAll: true } }
     }),
 
     // Create SVG sprite
