@@ -26,6 +26,7 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "custom-event-polyfill": "^1.0.7",
     "mutationobserver-shim": "^0.3.2",
     "svg4everybody": "^2.1.8",
@@ -34,7 +35,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
-    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
     "babel-loader": "^8.2.0",
     "css-loader": "^5.0.1",
