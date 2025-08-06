@@ -3,7 +3,7 @@
   "version": "0.1.0+epimorphics",
   "description": "npm package for using FSA styles",
   "author": "",
-  "main": " index.js",
+  "main": "index.js",
   "browserslist": [
     "> 1%",
     "IE 10",
