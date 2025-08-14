@@ -1,6 +1,6 @@
 {
   "name": "fsastyles",
-  "version": "0.1.1+epimorphics",
+  "version": "0.1.2+epimorphics",
   "description": "npm package for using FSA styles",
   "author": "",
   "main": "index.js",
@@ -56,6 +56,7 @@
     "postcss-nested": "^5.0.1",
     "postcss-normalize": "^9.0.0",
     "postcss-preset-env": "^6.7.0",
+    "sanitize.css": "^12.0.0",
     "standard": "^16.0.1",
     "style-loader": "^2.0.0",
     "stylelint": "^13.7.2",
