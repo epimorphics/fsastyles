@@ -1,5 +1,10 @@
 # FSAStyles Changelog
 
+## 0.1.3-epimorphics
+
+- Suppressed the following console message `JS navigation elements not found`,
+  for more information see [GH-73](https://github.com/epimorphics/data-dot-food-browser/issues/73)
+
 ## 0.1.2-epimorphics
 
 - Fixed an issue where `yarn build` would fail due to a missing CSS file
