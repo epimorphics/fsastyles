@@ -138,8 +138,9 @@ export function navigation () {
     siteElementArray.length <= 0
   ) {
     // See: https://github.com/epimorphics/data-dot-food-browser/issues/73
-    // TODO: Investigate why this happens and fix the root cause
-    // return console.log('JS navigation elements not found')
+    // TODO: Suppressed console message for the time being, investigate why this happens and fix the root cause
+    // console.log('JS navigation elements not found')
+    return
   }
 
   let secondLevelMenuArray = []
